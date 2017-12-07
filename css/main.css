@@ -53,21 +53,17 @@ body {
     animation: fadeInOut 9s;
 }
 
-#soon {
-	
-	font-family: 'Source Code Pro', monospace;
-	color: white;
-    font-size: 0.8em;
-    position: absolute;
-    padding-left: 30px;
-    top: 70%;
-    text-align: center;
-    width: 100%;
-    z-index: 100;
-    display: block;
-    animation: fadeInOut 9s;
-}
+@media only screen and (max-width: 500px) {
+	#info {
+		padding-left: 10px;
+	}
 
+    #tagline {
+    	padding-left: 10px;
+        font-size: 2.3em;
+        top: 60%;
+    }
+}
 
 font-family: 'Source Code Pro', monospace;
 font-family: 'Playfair Display', serif;
