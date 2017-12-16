@@ -32,32 +32,31 @@ body {
 }
 
 #tagline {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     background-color:black;
 	  color: white;
-    font-size: 3.5em;
+    font-size: 3em;
     position: absolute;
     padding: 20px;
-    top: 43%;
+    top: 50%;
     z-index: 100;
     display: block;
     animation: fadeInOut 9s;
 }
 
 #join a{
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Didact Gothic', sans-serif;
   color: white;
   background-color: black;
   text-decoration: none;
   text-align: center;
   font-size: 1.0em;
-  left:50%;
+  left:45%;
   position: absolute;
-  padding: 10px;
   top: 75%;
   z-index: 100;
   display: block;
-  animation: fadeInOut 4s;
+  animation: fadeInOut 9s;
 }
 
 #join a:hover{
